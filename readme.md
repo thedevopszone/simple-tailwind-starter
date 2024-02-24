@@ -26,6 +26,14 @@ npm run build
 npm run watch
 ```
 
+
+###
+
+```
+npm init -y
+
+```
+
 This will watch the `src/input.css` file and build it to `css/style.css`, which will be your final CSS file.
 
 ## License
