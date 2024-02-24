@@ -32,7 +32,24 @@ npm run watch
 ```
 npm init -y
 
-vi package.json
+cat package.json
+
+# For development
+npm -i -D tailwindcss
+
+# For Production
+npm -i tailwindcss
+
+npx tailwindcss init
+vi tailwind.config.js
+content: ['./*.html']
+
+touch input.css
+vi input.css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 
 ```
 
