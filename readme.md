@@ -27,10 +27,12 @@ npm run watch
 ```
 
 
-###
+# DEMO
 
 ```
 npm init -y
+
+vi package.json
 
 ```
 
