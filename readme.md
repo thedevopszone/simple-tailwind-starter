@@ -65,6 +65,15 @@ npm run build
 vi index.html
 ! enter
 
+
+link enter   # css/style.css
+<title>Document</title>
+
+#In body
+h1.text-xl enter
+
+
+npm run watch
 ```
 
 This will watch the `src/input.css` file and build it to `css/style.css`, which will be your final CSS file.
