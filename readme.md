@@ -50,6 +50,20 @@ vi input.css
 @tailwind components;
 @tailwind utilities;
 
+vi package.json
+"scripts": {
+  "build": "tailwindcss -i ./input.css -o ./css/style.css",
+  "watch": "tailwindcss -i ./input.css -o ./css/style.css --watch"
+  
+}
+
+
+
+npm run build
+
+
+vi index.html
+! enter
 
 ```
 
